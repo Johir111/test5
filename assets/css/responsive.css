@@ -1,0 +1,101 @@
+/* Medium Layout: 1280px. */
+@media only screen and (min-width: 992px) and (max-width: 1200px) { 
+	
+    
+}
+/* Tablet Layout: 768px. */
+@media only screen and (min-width: 768px) and (max-width: 991px) { 
+	.header-area p i {
+	left: -47px;
+	}
+	.single-bg-area i {
+	position: absolute;
+	left: 106px;
+	top: 71px;
+	font-size: 40px;
+	}
+	.single-bg-area h1 {
+	font-size: 40px;
+	padding-bottom: 23px;
+	padding-right: 61px;
+	}
+	.single-bg-area h3 {
+		font-size: 20px;
+	}
+	.bg-fixed{
+		width:100%;
+	}
+	.bg-fixed-4{
+		width:100%;
+		height:424px;
+	}
+}
+/* Mobile Layout: 320px. */
+@media only screen and (max-width: 767px) { 
+	.header-area{
+	height:100%;
+	}
+	.header-area p i {
+	left: -3px;
+	}
+	.header-text p {
+	padding-left: 47px;
+	}
+	.phone-text p {
+	font-size: 16px;
+	padding-left: 58px;
+}
+	.telephone-area {
+	margin-bottom: -39px;
+	}
+	.fixed-bg-3{
+		height:100%;
+	}
+	.single-slide-item h1{
+	font-size:40px;
+	
+	}
+	.single-slide-item h4 {
+	font-size: 20px;
+	line-height: 20px;
+	}
+	.boxed-btn{
+		font-size: 13px;
+	}
+	.single-bg-area i {
+	left: 200px;
+	}
+    
+}
+/* Wide Mobile Layout: 480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) { 
+	.header-area{
+	height:100%;
+	}
+	.header-text p {
+	padding-left: 47px;
+	}
+	.telephone-area {
+	margin-bottom: -39px;
+	}
+	.fixed-bg-3{
+		height:100%;
+	}
+	.single-slide-item h1{
+	font-size:50px;
+	
+	}
+	.single-slide-item h4 {
+	font-size: 20px;
+	line-height: 20px;
+	}
+	.boxed-btn{
+		font-size: 14px;
+	}
+	.single-bg-area i {
+	left: 308px;
+	}
+	.bg-fixed{
+		width:100%;
+	}
+}
